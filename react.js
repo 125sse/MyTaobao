@@ -35,12 +35,12 @@ $(document).ready(function () {
     // 给每个商品设置图片
     $(".picture").each(function () {
         var index = Math.floor(Math.random()*pLength);
-        $(this).css("background-image","url("+"images/"+picArray[index]+")");
+        $(this).css("background-image","url("+"image/"+picArray[index]+")");
     });
 
     // 给掌柜热卖的商品设置图片
     $(".hot_picture").each(function (index) {
-        $(this).css("background-image","url("+"images/"+hot_img[index]+")");
+        $(this).css("background-image","url("+"image/"+hot_img[index]+")");
     });
 
     // 价格区间的焦点事件
