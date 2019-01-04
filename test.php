@@ -1,3 +1,5 @@
-<?php
-echo "Data_Get_Success";
-?>
+{
+  ID:"1",
+  name:"wgp",
+  address:"123"
+}
