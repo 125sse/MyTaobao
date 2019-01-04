@@ -29,7 +29,7 @@
     <script>
         $("#wgp").click(function () {
             $.ajax({
-                type:"POST",
+                type:"GET",
                 url:"test.php",
                 success:function (msg) {
                     $("#wgp").html(msg);
